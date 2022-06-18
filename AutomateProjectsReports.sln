@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateProjectsReports", "AutomateProjectsReports\AutomateProjectsReports.csproj", "{21114711-C1C0-4B08-BDBC-C37FD6826EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21114711-C1C0-4B08-BDBC-C37FD6826EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21114711-C1C0-4B08-BDBC-C37FD6826EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21114711-C1C0-4B08-BDBC-C37FD6826EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21114711-C1C0-4B08-BDBC-C37FD6826EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D2ED88F-C950-4DF5-B546-499DAF2CDE88}
+	EndGlobalSection
+EndGlobal
