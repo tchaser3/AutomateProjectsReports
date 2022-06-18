@@ -16,7 +16,7 @@ using DateSearchDLL;
 using DesignProjectsDLL;
 using ProductionProjectDLL;
 using NewEventLogDLL;
-using DepartmentDLL;
+using WorkOrderDLL;
 
 namespace AutomateProjectsReports
 {
@@ -32,11 +32,22 @@ namespace AutomateProjectsReports
         DesignProjectsClass TheDesignProjectsClass = new DesignProjectsClass();
         ProductionProjectClass TheProductionProjectClass = new ProductionProjectClass();
         EventLogClass TheEventLogClass = new EventLogClass();
-        DepartmentClass TheDepartmentClass = new DepartmentClass();
+        WorkOrderClass TheWorkOrderClass = new WorkOrderClass();
+
+        //setting up the data
+        FindProductionProjectsEnteredNewStatusDataSet TheFindProductionProjectsEnteredNewStatusDataSet = new FindProductionProjectsEnteredNewStatusDataSet();
+        FindWorkOrderStatusSortedDataSet TheFindWorkOrderStatusSortedDataSet = new FindWorkOrderStatusSortedDataSet();
 
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            int intCounter;
+            int intNumberOfRecords;
+            int intStatusID;
         }
     }
 }

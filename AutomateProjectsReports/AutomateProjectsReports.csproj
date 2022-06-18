@@ -38,9 +38,6 @@
     <Reference Include="DateSearchDLL">
       <HintPath>..\..\Blue Jay Class Library\DateSearchDLL.dll</HintPath>
     </Reference>
-    <Reference Include="DepartmentDLL">
-      <HintPath>..\..\Blue Jay Class Library\DepartmentDLL.dll</HintPath>
-    </Reference>
     <Reference Include="DesignProjectsDLL">
       <HintPath>..\..\Blue Jay Class Library\DesignProjectsDLL.dll</HintPath>
     </Reference>
@@ -64,6 +61,9 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WorkOrderDLL">
+      <HintPath>..\..\Blue Jay Class Library\WorkOrderDLL.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
